@@ -1,0 +1,81 @@
+@media (max-width:990px) {
+  .main-sec {
+    background-color: var(--black);
+    height: fit-content;
+    padding: 40px 70px 60px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 40px -10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    }
+  .header .head-slider{
+    margin-top: 8%;
+    }
+  .what-im-into img {
+    margin-top: 20px;
+  }
+  .what-i-do .what-i-do-mid {
+    margin: 10% 0px;
+    }
+}
+@media(max-width:767px){
+  .what-i-do .front-end-developer{
+    margin-top: 50px;
+  }
+  .get-in-touch .add-box{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 21px 8px 12px 25px;
+  }
+  .social-media-hidden{
+    visibility: hidden;
+  }
+
+  .recent-work-imgs {
+    position: relative;
+    padding: 0px;
+    padding-top: 18px;
+    }
+  .recent-work-imgs .img-1 {
+    position: absolute;
+    z-index: 5;
+    width: 66%;
+    }
+  .recent-work-imgs .img-2 {
+    margin-top: 310px;
+    min-height: 300px;
+    }
+  .recent-work-imgs .img-3 {
+    margin-top: 10px;
+    }
+}
+@media(max-width:575px){
+  .rep-margin-top{
+    margin-top: 50px;
+  }
+  h1{
+    font-size: 24px !important;
+  }
+  .header-content {
+    margin: 5% 1%;
+    }
+    .from-btn{
+      font-size: smaller;
+    }
+  .head-buttons .head-button-one{
+  font-size: smaller;
+  }
+  .head-buttons .head-button-two{
+    font-size: smaller;
+  }
+  .what-i-do .what-i-do-mid{
+    margin-top: 15%;
+  }
+  .what-i-do .box .icon-box svg{
+    height: 25;
+    width: 25;
+  }
+  .what-i-do .box {
+    padding: 35px 13px 5px 32px;
+  }
+}
